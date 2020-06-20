@@ -15,16 +15,15 @@ import java.util.*;
 public class ConditionalStatementsChallenge {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Do you want to play the game (yes or no)");
+        System.out.print("Do you want to play the game (yes or no): ");
         String play = input.next();
         input.nextLine();
         while (play.toUpperCase().contains("y")) {
             System.out.print("Do you want to play the game(yes or no): ");
             play = input.next();
-        }
-        System.out.println("adios");
+            }
 
-        public static void playGame (Scanner input){
+
             System.out.println("please enter a number between 1 and 137: ");
             int n = input.nextInt();
             if (n < 1 || n > 137) {
@@ -40,6 +39,8 @@ public class ConditionalStatementsChallenge {
                     System.out.println("Not Weird");
                 }
             }
+            System.out.println("Adios");
         }
     }
-}
+
+

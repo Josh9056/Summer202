@@ -20,12 +20,12 @@ public class ChallengeDataTypes {
         int i = 10;
 double d = 5;
 String s  = "Stinger";
-System.out.print("Enter your integer");
+System.out.print("Enter your integer: ");
 Integer int1 = input.nextInt();
-System.out.print("Enter your double");
+System.out.print("Enter your double: ");
 Double doub1 = input.nextDouble();
 input.nextLine();
-System.out.print("Enter your String");
+System.out.print("Enter your String: ");
 String Str1 = input.nextLine();
 int sumInt = i+int1;
 double sumDoub = d+doub1;

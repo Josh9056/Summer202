@@ -8,26 +8,30 @@ import java.util.Scanner;
 
 public class StringChallenge {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i = i + 1) {
-            Scanner input = new Scanner(System.in);
-            System.out.print("Please enter a word: ");
-            String phrase = input.nextLine();
-            String evens = "";
-            String odds = "";
+        Scanner input = new Scanner(System.in);
 
-            for (int n = 0; i < phrase.length(); i += 2) {
-                evens = evens + phrase.charAt(i);
+        System.out.println("Please enter number of words here: ");
+        int number = input.nextInt();
+
+        if (number <= 10 && number >= 1) {
+          //  for (int i = 0, i < number; i++) {
+
+                System.out.print("Please enter a word: ");
+                String phrase = input.nextLine();
+                String evens = "";
+                String odds = "";
+
+             //   for (int n = 0; i < phrase.length(); i += 2) {
+             //      evens = evens + phrase.charAt(i);
+                }
+         //       for (int n = 1; i < phrase.length(); i += 2) {
+          //        odds = odds + phrase.charAt(i);
+                }
+           //     String answer = evens + " " + odds;
+          //      System.out.print(answer);
+
             }
-            for (int n = 1; i < phrase.length(); i += 2) {
-                odds = odds + phrase.charAt(i);
-            }
-            String answer = evens + " " + odds;
-            System.out.print(answer);
 
-        }
-
-    }
-}
 
 
 
